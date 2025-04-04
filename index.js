@@ -6,11 +6,11 @@ const anchorEl = document.querySelectorAll("a");
 console.log(btnEl);
 
 btnEl.onclick = () => {
-  optionEl.style.display = "block";
+  optionEl.classList.add("show");
 };
 
 anchorEl.forEach((a) => {
   a.onclick = () => {
-    optionEl.style.display = "none";
+    optionEl.classList.remove("show");
   };
 });

@@ -1,5 +1,33 @@
 
+.dropdown{
+    width: 100px;
+}
+button{
+    padding:5px;
+    font-size: large;
+    color:white;
+    background-color: blueviolet;
+}
 .options{
    
+   display: none;
+   flex-direction: column;
+  
+   text-align: center;
+   background-color: greenyellow;
    
+
+}
+.options a{
+    background-color: palevioletred;
+    color: white;
+    padding:5px;
+    margin: 5px 3px;
+text-decoration: none;    
+   
+}
+
+.show{
+    display: flex;
+
 }
