@@ -1,0 +1,28 @@
+*{
+ margin:0;
+ padding:0;
+}
+.main{
+    display: flex;
+
+    
+}
+.main img:not(:first-child) {  /* it will shift the img to -100% to left , means overlap by first one*/
+    margin-left: -100%;
+}
+.main img{
+  width: 100%;
+  
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
