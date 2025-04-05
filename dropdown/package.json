@@ -1,0 +1,38 @@
+{
+  "name": "dropdown-images-carousel",
+  "version": "1.0.0",
+  "description": "Dropdown manu and images slider ",
+  "main": "dropdown/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandanafuloria/dropdown-images-carousel.git"
+  },
+  "keywords": [
+    "dropdown",
+    "image-slider"
+  ],
+  "author": "vandana fuloria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandanafuloria/dropdown-images-carousel/issues"
+  },
+  "homepage": "https://github.com/vandanafuloria/dropdown-images-carousel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
